@@ -56,6 +56,10 @@ export default function Navbar() {
                     font-size: 1.5em;
                 }
 
+                .nav-item:hover a {
+                    color: yellow;
+                }
+
                 .active {
                     font-weight: bold;
                     border-bottom: 7px solid yellow;
