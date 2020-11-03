@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Main from './pages/Main';
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom"
 import notfound from './components/notfound';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
             <Route component={notfound} />
           </Switch>
       </Router>
+      <Footer />
     </div>
   );
 }

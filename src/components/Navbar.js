@@ -32,6 +32,13 @@ export default function Navbar() {
         <style>
             {`
                 .nav-bar {
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    background: #fff;
+                    box-shadow: 0 2px 6px 0 #e6e6e6;
+                    padding: 1em;
                     display: flex;
                     justify-content: space-between;
                 }
